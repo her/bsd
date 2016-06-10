@@ -8,7 +8,7 @@ files in their relative directories.
 
 ## Configuration Checks
 
-`$ local` - prints language and encoding configurations for admin review
+`$ locale` - prints language and encoding configurations for admin review
 
 ## Notes
 
