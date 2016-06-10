@@ -1,6 +1,6 @@
 # bsd
 
-:smiling_imp: Bootstrap FreeBSD
+**Bootstrap a FreeBSD Workstation**:smiling_imp:
 
 These are some rudimentary conf files providing a baseline for rapidly
 deploying a fresh BSD workstation. After install clone repo and place
@@ -33,4 +33,4 @@ environment.
 
 [FreeBSD IRC Channels](https://wiki.freebsd.org/IrcChannels) for being such a nurturing and knowledgeable community.
 
-[Allison Nicole Reid](https://cooltrainer.org/a-freebsd-desktop-howto/) [:octocat:](https://github.com/okeeblow/) for her awesome blog [cooltrainer](cooltrainer.org) which helped me configure my BSD station. 
+[Allison Nicole Reid :octocat:](https://github.com/okeeblow/) for her awesome blog [cooltrainer](cooltrainer.org) detailing BSD configurations. 
