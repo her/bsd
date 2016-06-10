@@ -2,9 +2,16 @@
 
 **Bootstrap a FreeBSD Workstation**:smiling_imp:
 
-These are some rudimentary conf files providing a baseline for rapidly
-deploying a fresh BSD workstation. After install clone repo and place
-files in their relative directories.
+Sensible configuration defaults for rapidly deploying a fresh BSD workstation. 
+
+## Usage
+
+After installing FreeBSD clone the repository and place files in their relative
+directories. Each file details:
+
+* it's relative path, i.e. where the file belongs
+* it's purpose and use
+* any additionally required or recommended instructions
 
 ## Configuration Checks
 
