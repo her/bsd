@@ -43,7 +43,7 @@ Certain third-party software options must be set at compile time. These should b
 
 * [**QGtkStyle**](https://en.wikipedia.org/wiki/QGtkStyle) - Open source project to create a GTK+ layer for Qt-based applications running on GTK2-based desktops.
 
-* **CUPS** - Standard printing engine on Unlix-like systems. Support for it in QT can be enabled with the `CUPS` QT4 option.
+* **[CUPS](https://www.freebsd.org/doc/en/articles/cups/)** - Standard printing engine on Unlix-like systems. Support for it in QT can be enabled with the `CUPS` QT4 option.
 
 * [**The Network Audio System (NAS)**](http://www.radscan.com/nas.html) - The Network Audio System is a network transparent, client/server audio transport system. It can be described as the audio equivalent of an X server.
 
