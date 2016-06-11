@@ -65,3 +65,5 @@ environment.
 [FreeBSD IRC Channels](https://wiki.freebsd.org/IrcChannels) for being such a nurturing and knowledgeable community.
 
 [Allison Nicole Reid :octocat:](https://github.com/okeeblow/) for her awesome blog [cooltrainer](cooltrainer.org) detailing BSD configurations. 
+
+[Marshall Kirk McKusick](https://www.mckusick.com/beastie/mainpage/copyright.html) for his many contributions to FreeBSD, including Beastie! 
