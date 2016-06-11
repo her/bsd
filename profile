@@ -1,9 +1,8 @@
-################
-# /etc/profile
-################
-# profile
-################
+#############################################
+#               /etc/profile
+#############################################
 #---specifies configs for non-login shells
+#############################################
 #
 LANG=en_US.UTF-8;   export LANG
 CHARSET=UTF-8;  export CHARSET
