@@ -1,15 +1,15 @@
-######################
-#  /etc/devfs.rules  #
-######################
-#     Ruleset        #
-######################  
-# --set common device permissions for all users on the system connected post boot 
+################################################
+#  /etc/devfs.rules  
+################################################
+#---Ruleset, set common device permissions for 
+#   all users on the system connected post boot 
+################################################  
+# 
+# Ruleset is enabled by calling it in /etc/rc.conf using:
+#      devfs_system_ruleset="devfsrules_common"
 #
-# Rules are composed of a path or quoted path glob and octal permission value.
-#
-# Ruleset is enabled by calling it in /etc/rc.conf
-# `devfs_system_ruleset="devfsrules_common"`
-#
+# Rules are composed of a path or quoted path glob and octal permission value. 
+# 
 [devfsrules_common=7]
 add path 'ad[0-9]\*'        mode 666
 add path 'ada[0-9]\*'    mode 666
