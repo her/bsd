@@ -26,7 +26,7 @@ Sensible configuration defaults for rapidly deploying a fresh BSD workstation.
 ````
 ## Usage
 
-After installing FreeBSD clone the repository and place files in their relative
+After installing FreeBSD, clone the repository and place files in their relative
 directories. Each file details:
 
 * it's relative path, i.e. where the file belongs
