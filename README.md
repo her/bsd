@@ -19,15 +19,19 @@ directories. Each file details:
 
 ## Build Settings
 
-[QGtkStyle](https://en.wikipedia.org/wiki/QGtkStyle) - Open source project to create a GTK+ layer for Qt-based applications running on GTK2-based desktops.
+Certain third-party software options must be set at compile time. These should be installed and configured before building your GUI. 
 
-If you change `QT4_OPTIONS` after Qt is installed you need to rebuild `devel/qt4-corelib` and `x11-toolkits/qt4-gui`
+* [**QGtkStyle**](https://en.wikipedia.org/wiki/QGtkStyle) - Open source project to create a GTK+ layer for Qt-based applications running on GTK2-based desktops.
 
-**CUPS** - Standard printing engine on Unlix-like systems. Support for it in QT can be enabled with the `CUPS` QT4 option.
+* **CUPS** - Standard printing engine on Unlix-like systems. Support for it in QT can be enabled with the `CUPS` QT4 option.
+
+* [**The Network Audio System (NAS)**](http://www.radscan.com/nas.html) - The Network Audio System is a network transparent, client/server audio transport system. It can be described as the audio equivalent of an X server.
+
 
 `echo "QT4_OPTIONS=    CUPS QGTKSTYLE NAS" >> /etc/make.conf`
 
-[The Network Audio System (NAS)](http://www.radscan.com/nas.html)
+If you change `QT4_OPTIONS` after Qt is installed you need to rebuild `devel/qt4-corelib` and `x11-toolkits/qt4-gui`
+
 
 ## Notes
 
