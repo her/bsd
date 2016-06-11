@@ -3,7 +3,27 @@
 **Bootstrap a FreeBSD Workstation**:smiling_imp:
 
 Sensible configuration defaults for rapidly deploying a fresh BSD workstation. 
-
+````
+                ,        ,         
+               /(        )`        
+               \ \___   / |        
+               /- _  `-/  '        
+              (/\/ \ \   /\        
+              / /   | `    \       
+              O O   ) /    |       
+              `-^--'`<     '       
+             (_.)  _  )   /        
+              `.___/`    /         
+                `-----' /          
+   <----.     __ / __   \          
+   <----|====O)))==) \) /====      
+   <----'    `--' `.__,' \         
+                |        |         
+                 \       /       /\
+            ______( (_  / \______/ 
+          ,'  ,-----'   |          
+          `--{__________)  
+````
 ## Usage
 
 After installing FreeBSD clone the repository and place files in their relative
