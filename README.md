@@ -56,6 +56,9 @@ If you change `QT4_OPTIONS` after Qt is installed you need to rebuild `devel/qt4
 
 `# cat /dev/sndstat` - prints the status of the sound card and which driver was selected for the sound card after loading the `snd_driver_load="YES"` metadriver in `/boot/loader.conf`
 
+`cat filename > /dev/dsp` - produce noise and test sound card by sending data
+to `/dev/dsp`, where `filename` can be any file type.
+
 ### Commands
 
 `wheel` - allows user to invoke `su` and become root. enable with `pw usermod
