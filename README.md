@@ -48,6 +48,16 @@ Certain third-party software options must be set at compile time. These should b
 
 If you change `QT4_OPTIONS` after Qt is installed you need to rebuild `devel/qt4-corelib` and `x11-toolkits/qt4-gui`
 
+## Getting Software
+
+`pk update` - fetches updated index from every `PACKAGESITE` 
+
+`portsnap fetch extract` - retrieves a new full ports tree
+
+**Ports** - build ports with `cd /usr/ports/<category>/<portname> && make install`
+
+**pkg** - install ports with `pkg install <portname>`
+
 ## Configuration Checks & Commands
 
 ### Checks
