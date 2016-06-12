@@ -33,9 +33,19 @@ directories. Each file details:
 * it's purpose and use
 * any additionally required or recommended instructions
 
-## Configuration Checks
+## Configuration Checks & Commands
+
+### Checks
 
 `$ locale` - prints language and encoding configurations for admin review
+
+### Commands
+
+`wheel` - allows user to invoke `su` and become root. enable with `pw usermod
+<username> -G operator`
+
+`operator` - required for device permissions. enable with `pw usermod
+<username> -G operator`
 
 ## Build Settings
 
