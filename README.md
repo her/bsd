@@ -52,6 +52,9 @@ Certain third-party software options must be set at compile time. These should b
 
 If you change `QT4_OPTIONS` after Qt is installed you need to rebuild `devel/qt4-corelib` and `x11-toolkits/qt4-gui`
 
+## Optional Add-Ons
+
+**zsh** - with [auto-suggestions](https://github.com/zsh-users/zsh-autosuggestions) and [syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md) creates a POSIX compliable fish-like experience that intergrates nicely with FreeBSD. `.zshrc` is included in this repository.
 
 ## Notes
 
