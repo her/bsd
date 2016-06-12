@@ -56,7 +56,7 @@ If you change `QT4_OPTIONS` after Qt is installed you need to rebuild `devel/qt4
 
 `# cat /dev/sndstat` - prints the status of the sound card and which driver was selected for the sound card after loading the `snd_driver_load="YES"` metadriver in `/boot/loader.conf`
 
-`cat filename > /dev/dsp` - produce noise and test sound card by sending data
+`# cat filename > /dev/dsp` - produce noise and test sound card by sending data
 to `/dev/dsp`, where `filename` can be any file type.
 
 ### Commands
@@ -66,6 +66,10 @@ to `/dev/dsp`, where `filename` can be any file type.
 
 `operator` - required for device permissions. enable with `pw usermod
 <username> -G operator`
+
+`# service pf start` - starts up firewall, configured in `/etc/pf.conf`
+
+`# pfctl -f /etc/pf.conf` - after making rule changes in `/etc/pf.conf`, `pftcl` reloads and runs the new configuration and aborts if your ruleset contains an error
 
 ## Sound
 
