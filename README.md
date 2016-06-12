@@ -37,7 +37,9 @@ directories. Each file details:
 
 ### Checks
 
-`$ locale` - prints language and encoding configurations for admin review
+`# locale` - prints language and encoding configurations for admin review
+
+`cat /dev/sndstat` - prints which driver was selected for the sound card after loading the `snd_driver_load="YES"` metadriver in `/boot/loader.conf`
 
 ### Commands
 
