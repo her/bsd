@@ -33,22 +33,6 @@ directories. Each file details:
 * it's purpose and use
 * any additionally required or recommended instructions
 
-## Configuration Checks & Commands
-
-### Checks
-
-`# locale` - prints language and encoding configurations for admin review
-
-`cat /dev/sndstat` - prints which driver was selected for the sound card after loading the `snd_driver_load="YES"` metadriver in `/boot/loader.conf`
-
-### Commands
-
-`wheel` - allows user to invoke `su` and become root. enable with `pw usermod
-<username> -G operator`
-
-`operator` - required for device permissions. enable with `pw usermod
-<username> -G operator`
-
 ## Build Settings
 
 Certain third-party software options must be set at compile time. These should be installed and configured before building your GUI. 
@@ -63,6 +47,36 @@ Certain third-party software options must be set at compile time. These should b
 `echo "QT4_OPTIONS=    CUPS QGTKSTYLE NAS" >> /etc/make.conf`
 
 If you change `QT4_OPTIONS` after Qt is installed you need to rebuild `devel/qt4-corelib` and `x11-toolkits/qt4-gui`
+
+## Configuration Checks & Commands
+
+### Checks
+
+`# locale` - prints language and encoding configurations for admin review
+
+`# cat /dev/sndstat` - prints the status of the sound card and which driver was selected for the sound card after loading the `snd_driver_load="YES"` metadriver in `/boot/loader.conf`
+
+### Commands
+
+`wheel` - allows user to invoke `su` and become root. enable with `pw usermod
+<username> -G operator`
+
+`operator` - required for device permissions. enable with `pw usermod
+<username> -G operator`
+
+## Sound
+
+**Your sound card needs configured. `/etc/sysctl.conf` contains a section
+commented as "Sound" with examples for the instructions below**
+
+* Configure sound by first running `# cat /dev/sndstat` to review available sound
+devices. Note which `pcm` you'd like to use and note it's module number, ex. `pcm0`.
+
+* Next add the `hw.snd.default_unit` variable in `/etc/sysctl.conf` and assign it
+the value of `pcm`, ex. `hw.snd.default_unit=0` 
+
+* Enabling the `hw.snd.default_auto` boolean will automatically assign newly
+attached devices to `hw.snd.default_unit`, ex. `hw.snd.default_auto=0`
 
 ## Optional Add-Ons
 
