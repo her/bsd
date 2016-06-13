@@ -102,7 +102,11 @@ attached devices to `hw.snd.default_unit`, ex. `hw.snd.default_auto=0`
 
 ## Optional Add-Ons
 
-**zsh** - with [auto-suggestions](https://github.com/zsh-users/zsh-autosuggestions) and [syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md) creates a POSIX compliable fish-like experience that intergrates nicely with FreeBSD. `.zshrc` is included in this repository.
+**zsh** - `shells/zsh` with [auto-suggestions](https://github.com/zsh-users/zsh-autosuggestions) and [syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md) creates a POSIX compliable fish-like experience that intergrates nicely with FreeBSD. `.zshrc` is included in this repository.
+
+**tmux** - `sysutils/tmux`
+
+**vim** - `editors/vim`
 
 ## Notes
 
