@@ -50,15 +50,18 @@ If you change `QT4_OPTIONS` after Qt is installed you need to rebuild `devel/qt4
 
 ## Getting Software
 
-`pk update` - fetches updated index from every `PACKAGESITE` 
+`# pkg update` - fetches updated index from every `PACKAGESITE` 
 
-`portsnap fetch extract` - retrieves a new full ports tree
+`# portsnap fetch extract` - retrieves a new full ports tree
 
-**Ports** - build ports with `cd /usr/ports/<category>/<portname> && make install`
+**Ports** - build ports with `# cd /usr/ports/<category>/<portname> && make install`
 
-`make config-recursive` - presents all port configuration options before building
+`# make config-recursive` - presents all port configuration options before
+building, run until no more options display
 
-**pkg** - install ports with `pkg install <portname>`
+`# make install` - builds port
+
+**pkg** - install ports with `# pkg install <portname>`
 
 ## Configuration Checks & Commands
 
