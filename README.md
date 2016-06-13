@@ -102,6 +102,12 @@ attached devices to `hw.snd.default_unit`, ex. `hw.snd.default_auto=0`
 
 ## Optional Add-Ons
 
+**sudo** - `security/sudo` without this port(or pkg) no users can run `sudo`.
+after install login as root to configure `sudoers` file located at 
+`/usr/local/etc/sudoers`, run `# visudo` and add `%wheel ALL=(ALL) ALL` to
+allow members of group wheel to execute sudo. also add `<username> ALL=(ALL)
+ALL` to allow specified user to run sudo. save and close the file.
+
 **git** - `devel/git` 
 
 **zsh** - `shells/zsh` with [auto-suggestions](https://github.com/zsh-users/zsh-autosuggestions) and [syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md) creates a POSIX compliable fish-like experience that intergrates nicely with FreeBSD. `.zshrc` is included in this repository.
