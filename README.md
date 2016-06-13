@@ -77,7 +77,7 @@ to `/dev/dsp`, where `filename` can be any file type.
 ### Commands
 
 `wheel` - allows user to invoke `su` and become root. enable with `pw usermod
-<username> -G operator`
+<username> -G wheel`
 
 `operator` - required for device permissions. enable with `pw usermod
 <username> -G operator`
