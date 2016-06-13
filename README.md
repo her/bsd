@@ -56,6 +56,8 @@ If you change `QT4_OPTIONS` after Qt is installed you need to rebuild `devel/qt4
 
 **Ports** - build ports with `cd /usr/ports/<category>/<portname> && make install`
 
+`make config-recursive` - presents all port configuration options before building
+
 **pkg** - install ports with `pkg install <portname>`
 
 ## Configuration Checks & Commands
