@@ -32,6 +32,7 @@ Reference for configuring a BSD workstation 😈
 ```
 # /etc/rc.conf
 dbus_enable="YES"
+hald_enable="YES"
 ```
 `$ startx`
 
