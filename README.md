@@ -92,6 +92,8 @@ moused_enable="YES"
 moused_flags="F 200 -A 1.0,2.0 -a 0.7 -r high"
 ```
 
+From wthin an X11 session: `xset m 1/1 1`
+
 ### Sound
 
 `/etc/sysctl.conf` - Kernel state defaults [man sysctl.conf](https://www.freebsd.org/cgi/man.cgi?sysctl.conf(5))
